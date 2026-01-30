@@ -1,6 +1,6 @@
 # Web Infrastructure Assignment: Task Manager
 
-**Live Link:**[[https://Umutoni2.github.io/task-manager-app/](https://www.google.com/search?q=https://Umutoni2.github.io/task-manager-app/)] 
+**Live Link:** [https://Umutoni2.github.io/task-manager-app/]
 
 ## 1. Project Overview
 
