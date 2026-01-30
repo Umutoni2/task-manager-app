@@ -17,7 +17,7 @@ This is a simple task management web application built using:
 ## Deployment
 This project is deployed using GitHub Pages:
 
-(Add your link here)
+https://github.com/Umutoni2/task-manager-app
 
 ## Author
 Sylvie UMUTONI RUTAGANIRA – Web Infrastructure
