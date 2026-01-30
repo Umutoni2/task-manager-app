@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mini Task Manager</h1>
+
+    <!-- Notification Box -->
+    <div id="notification"></div>
+
+    <!-- Task Counter -->
+    <div class="counter">
+      <p>Total: <span id="totalCount">0</span></p>
+      <p>Completed: <span id="completedCount">0</span></p>
+      <p>Remaining: <span id="remainingCount">0</span></p>
+    </div>
+
+    <!-- Input Section -->
+    <div class="task-input">
+      <input type="text" id="taskText" placeholder="Enter a new task...">
+
+      <!-- Priority -->
+      <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+
+      <!-- Due Date -->
+      <input type="date" id="dueDate">
+
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <!-- To-Do Tasks -->
+    <h2>To-Do Tasks</h2>
+    <ul id="todoList"></ul>
+
+    <!-- Completed Tasks -->
+    <h2>Completed Tasks</h2>
+    <ul id="completedList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
