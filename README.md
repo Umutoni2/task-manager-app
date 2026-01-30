@@ -57,7 +57,8 @@ README.md
 - Priority levels color-coded  
 
 ---
-
+## Author
+Sylvie UMUTONI RUTAGANIRA – Web Infrastructure
 
 ---
 
