@@ -48,11 +48,8 @@ This section is critical for your "Infrastructure Understanding" marks.
 3. Open `index.html` in any modern web browser or use the "Live Server" extension in VS Code.
 ---
 
-### Important Reminder for your Submission:
-
-* **The Link:** Your README currently links to the GitHub **code** page. Make sure to include the **Live Pages link** (the one ending in `.github.io/`) so the grader can actually use the app.
-
-* **Recorded Demo:** Don't forget to record a short video. Mention your "Problem Statement," walk through the "Features," and explain the "Infrastructure" (the Browser-to-Server flow) .
+### DEMO
+* **Recorded Demo:**[]
 
 ---
 ## Author
