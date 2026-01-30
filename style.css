@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 650px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Notification */
+#notification {
+  text-align: center;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  display: none;
+  font-weight: bold;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  justify-content: space-around;
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input Section */
+.task-input {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Task Items */
+li {
+  background: #eee;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+/* Buttons */
+.task-buttons button {
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.complete-btn {
+  background: green;
+  color: white;
+}
+
+.undo-btn {
+  background: orange;
+  color: white;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+}
